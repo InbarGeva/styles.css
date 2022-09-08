@@ -12,7 +12,10 @@ a:link {
     color: red;
 }
       
-     
+Img {
+    Height: 500px; 
+}
+        
 a:visited {
     color: green;
 }
