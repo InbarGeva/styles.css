@@ -1,0 +1,43 @@
+h1, h2 {
+    font-family: 'Courier New font';
+    color: red;}                       
+
+Body {                                                               
+	font-family: 'Calibri';}
+
+p {
+    font-family: 'Calibri';
+    }
+a:link {
+    color: red;
+}
+      
+     
+a:visited {
+    color: green;
+}
+    
+Button:hover  {
+    background-color: red; 
+	
+}
+
+Button:active  {
+    background-color: green;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+table {
+    tr:(even) {background: light gray}
+}
+
+table:hover {
+    tr: {background: light blue}
+}

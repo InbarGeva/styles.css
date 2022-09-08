@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" >
+</head>  
+<body>
+<p><a href="index.html">Go to introductory Page</a>
+</p>
+<h2>Form Page</h2>
+<h4>Please fill up the next information</h4>
+
+<form>
+    <label for="name"> Full Name:</label>
+    <input type="text" name="name" required="required">
+    <label for="pwd"> Password:</label>
+    <input type="password" name="pwd">
+    <br>
+    <p>Please select one of the following:</p>
+    <p>Have you taken IS 445 already?:</p>
+    <input type="radio" name="answer" value="YES">
+    <label for="op1">YES</label><br>
+    <input type="radio" name="answer" value="NO">
+    <label for="op2">NO</label><br>
+    <input type="radio" name="answer" value="Not Sure">
+    <label for="op3">Not Sure</label>
+    <br>  
+    <p>Please select which course/s you have been taken:</p>
+    <input type="checkbox" name="courses1" value="IS 445">
+    <label for="courses1"> IS 445</label><br>
+    <input type="checkbox" name="courses2" value="IS 380">
+    <label for="courses2"> IS 380</label><br>
+    <input type="checkbox" name="courses3" value="IS 340">
+    <label for="courses3"> IS 340</label><br><br>
+    <br> 
+    <label for="rating">what is your satisfication from the class so far?:</label>
+    <select name="rating"  multiple>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    </select>
+
+    <label for="class_date">what was the first day of this class?:</label>
+    <input type="date" name="class_date">
+
+    <input type="submit" value="Submit">
+
+</form>
+
+
+</body>
+</html>
